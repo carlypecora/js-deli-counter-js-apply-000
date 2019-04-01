@@ -1,7 +1,9 @@
 var katzDeliLine = [];
+var counter = 0;
 
 function takeANumber(katzDeliLine, name){
   katzDeliLine.push(name)
+  counter += 1;
   for(var i = 0; i < katzDeliLine.length; i++){
     var numInLine = i + 1;
   }
